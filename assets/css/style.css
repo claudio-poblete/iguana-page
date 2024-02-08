@@ -1,0 +1,207 @@
+@import url("https://.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,70fonts0;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #FFFFFF;
+  background-color: #000000;
+  font-family: 'Raleway', sans-serif;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+}
+
+.titulo h1{
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.header__bg{
+  background-image: url(../imgs/bg-header.jpg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 727px;
+  background-size: contain;
+}
+
+.descripcion__iguana{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 106px;
+  padding-bottom: 108px;
+}
+
+.descripcion{
+  max-width: 475px;
+  max-height: 197px;
+  padding-top: 76px;
+  padding-bottom: 75px;
+  display: flex;
+  flex-direction: column;
+}
+
+.parrafo{
+  padding-bottom: 1em;
+}
+
+.parrafo p{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.descripcion__img{
+  max-width: 399px;
+  max-height: 237px;
+  padding-top: 45px;
+  padding-bottom: 46px;
+}
+
+.descripcion__img img{
+  width: 399px;
+  height: 237px;
+}
+
+.caracteristicas{
+  background-color: #1E1A13;
+  opacity: 0.98;
+}
+
+.caracteristica__titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 75px;
+}
+
+.caracteristica__titulo h2{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.habilidades__iguana{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 74px;
+  gap: 230px;
+}
+
+.habilidad{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.2em;
+  align-items: center;
+}
+
+.nombre__habilidad p{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.imagenes__iguana{
+  background-color: #000000;
+  opacity: 0.96;
+}
+
+.contenedor__img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+
+.img__iguanas{
+  width: 316px;
+  height: 202px;
+}
+
+.img__iguanas img{
+  width: 316px;
+  height: 202px;
+}
+
+footer{
+  background-color: #1E1A13;
+  opacity: 0.94;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+footer p{
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer a:hover{
+  color: rgb(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 600px) {
+
+  .titulo h1{
+    font-size: 25px;
+  }
+  .header__bg{
+    height: 200px;
+  }
+  .descripcion{
+    padding-top: 30px;
+  }
+  .descripcion__iguana{
+    gap: 0.2em;
+    padding: 0 1em 0 1em;
+  }
+  .parrafo p{
+    font-size: 12px;
+  }
+  .descripcion__img img{
+    width: 100%;
+    height: 100%;
+  }
+  .caracteristica__titulo{
+    padding-top: 40px;
+  }
+  .caracteristica__titulo h2{
+    font-size: 30px;
+  }
+  .habilidades__iguana{
+    gap: 50px;
+  }
+  .nombre__habilidad p{
+    font-size: 20px;
+  }
+
+  footer p{
+    font-size: 15px;
+    max-width: 50ch;
+    text-align: center;
+  }
+}
